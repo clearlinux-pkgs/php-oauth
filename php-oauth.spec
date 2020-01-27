@@ -4,7 +4,7 @@
 #
 Name     : php-oauth
 Version  : 2.0.4
-Release  : 2
+Release  : 3
 URL      : https://pecl.php.net/get/oauth-2.0.4.tgz
 Source0  : https://pecl.php.net/get/oauth-2.0.4.tgz
 Summary  : PHP extension to provide OAuth consumer and provider bindings.
