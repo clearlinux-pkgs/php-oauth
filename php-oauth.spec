@@ -4,10 +4,10 @@
 #
 Name     : php-oauth
 Version  : 2.0.5
-Release  : 5
+Release  : 6
 URL      : https://pecl.php.net/get/oauth-2.0.5.tgz
 Source0  : https://pecl.php.net/get/oauth-2.0.5.tgz
-Summary  : PHP extension to provide OAuth consumer and provider bindings.
+Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-3-Clause
 Requires: php-oauth-lib = %{version}-%{release}
@@ -16,12 +16,10 @@ BuildRequires : pcre-dev
 BuildRequires : pcre2-dev
 
 %description
-WePay is a group payment service which makes managing money for groups simple.
-These example scripts come with a test consumer key and secret which you can
-use to test the API, but they may be rate limited or disabled entirely at any
-point, so you should go to https://www.wepay.com/developer/register to register
-your own consumer key and shared secret which you can put in the config.inc.php
-file.
+=== CONFIGURATION ===
+2 things need updated with information from the OAuth service provider:
+* config.inc.php
+* the URL's of the providers resources (to get tokens, manipulate user info, etc.)
 
 %package lib
 Summary: lib components for the php-oauth package.
