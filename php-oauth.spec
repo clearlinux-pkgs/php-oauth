@@ -4,7 +4,7 @@
 #
 Name     : php-oauth
 Version  : 2.0.5
-Release  : 7
+Release  : 8
 URL      : https://pecl.php.net/get/oauth-2.0.5.tgz
 Source0  : https://pecl.php.net/get/oauth-2.0.5.tgz
 Summary  : No detailed summary available
