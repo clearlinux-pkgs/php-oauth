@@ -4,7 +4,7 @@
 #
 Name     : php-oauth
 Version  : 2.0.7
-Release  : 15
+Release  : 16
 URL      : https://pecl.php.net/get/oauth-2.0.7.tgz
 Source0  : https://pecl.php.net/get/oauth-2.0.7.tgz
 Summary  : No detailed summary available
@@ -50,4 +50,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20200930/oauth.so
+/usr/lib64/extensions/no-debug-non-zts-20210902/oauth.so
