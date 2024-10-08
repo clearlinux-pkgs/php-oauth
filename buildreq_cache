@@ -1,4 +1,3 @@
-2.0.7
-pcre-dev
+2.0.9
+file
 pcre2-dev
-perl(Getopt::Long)
